@@ -17,7 +17,7 @@ local scratch = require("scratch")
 local alttab = require("alttab")
 --local cyclefocus = require('cyclefocus')
 local blingbling = require("blingbling")
-local lpass = require("lpass")
+--local lpass = require("lpass")
 
 -- {{{ Error handling
 -- Check if awesome encountered an error during startup and fell back to
@@ -490,11 +490,11 @@ globalkeys = awful.util.table.join(
             alttab.switch(-1, "Alt_L", "Tab", "ISO_Left_Tab")
         end
     ),
-    awful.key({ "Mod1",           }, "F11",
-        function ()
-            lpass.toggle()
-        end
-    ),
+    --awful.key({ "Mod1",           }, "F11",
+        --function ()
+            --lpass.toggle()
+        --end
+    --),
     awful.key({ modkey,           }, "j",
         function ()
             awful.client.focus.byidx( 1)
