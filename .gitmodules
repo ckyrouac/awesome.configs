@@ -4,9 +4,6 @@
 [submodule "awesome-configs"]
 	path = awesome-configs
 	url = http://git.sysphere.org/awesome-configs
-[submodule "blingbling"]
-	path = blingbling
-	url = git://github.com/cedlemo/blingbling.git
 [submodule "cyclefocus"]
 	path = cyclefocus
 	url = https://github.com/blueyed/awesome-cyclefocus
